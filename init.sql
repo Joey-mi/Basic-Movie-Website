@@ -1,13 +1,13 @@
 INSERT INTO `admin` (`admin_email`, `password`, `fname`, `lname`) VALUES
-('admin@email.com', 'test', 'Jane', 'Doe');
+('admin@email.com', '$2y$10$ObZMOjQEt8IaoX2fzBpyFONxX1d/d3TYJx6UJ0IBHE.JZ8pkWuvcq', 'Jane', 'Doe');
 
 INSERT INTO `users` (`email`, `password`) VALUES
-('cus@email.com', 'test'),
-('admin@email.com', 'test');
+('cus@email.com', '$2y$10$ObZMOjQEt8IaoX2fzBpyFONxX1d/d3TYJx6UJ0IBHE.JZ8pkWuvcq'),
+('admin@email.com', '$2y$10$ObZMOjQEt8IaoX2fzBpyFONxX1d/d3TYJx6UJ0IBHE.JZ8pkWuvcq');
 
 INSERT INTO `customer` (`customer_email`, `password`, `fname`, `lname`) VALUES
-('cus@email.com', 'test', 'John', 'Smith'),
-('admin@email.com', 'test', 'Jane', 'Doe');
+('cus@email.com', '$2y$10$ObZMOjQEt8IaoX2fzBpyFONxX1d/d3TYJx6UJ0IBHE.JZ8pkWuvcq', 'John', 'Smith'),
+('admin@email.com', '$2y$10$ObZMOjQEt8IaoX2fzBpyFONxX1d/d3TYJx6UJ0IBHE.JZ8pkWuvcq', 'Jane', 'Doe');
 
 INSERT INTO `help_issues` (`a_email`, `c_email`, `help_id`, `issue_details`, `status`) VALUES
 ('admin@email.com', 'cus@email.com', 1, 'Test request\n', 'O');

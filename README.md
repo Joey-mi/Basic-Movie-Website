@@ -4,7 +4,7 @@
 This is a PHP web project which uses MySQL as a database. This website takes you through a mock process of purchasing movie tickets online. It also has functionality for admin controls such as adding a movie and setting up it's showtimes and etc. to be put into the database which will effect the client side.
 
 This project provides some default database entries for testing in files init.sql and movidedb.sql that you can run as a sql script to
-initialize the database.
+initialize the database. The init.sql files puts in some base users that store a hashed password, to login as any of the test users the password is test. All sql statements use prepare statements to guard against sql injection attacks.
 
 Since this project uses composer to work with .env files. To set up .env files go <a href="https://getcomposer.org/download/">here</a> and download composer.
 
